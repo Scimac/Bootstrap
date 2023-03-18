@@ -1,0 +1,46 @@
+/* .featureTiles.col {
+    height: 100%;
+    box-shadow: 0px 0px 2rem #e7e7e7;
+} */
+
+.carousel-caption {
+    background-color: #000000a1;
+}
+
+i.bi-check2 {
+    color: rgb(0, 185, 0);
+}
+
+i.bi-x {
+    color: red;
+}
+
+    /* width: 20vw; */
+
+    /* Breakpoint	Class infix	Dimensions
+    X-Small	None	<576px
+    Small	sm	≥576px
+    Medium	md	≥768px
+    Large	lg	≥992px
+    Extra large	xl	≥1200px
+    Extra extra large	xxl	≥1400px */
+
+    /* For xtra small screens --- X-Small	None	<576px */
+    @media screen and (max-width: 576px) {
+        
+    }
+
+    /* For small screens --- Small	sm	≥576px */
+    @media screen and (min-width: 576px) {
+        
+    }
+
+    /* For medium screens --- Medium	md	≥768px */
+    @media screen and (min-width: 768px) {
+        
+    }
+
+    /* For large screens --- Large	lg	≥992px */
+    @media screen and (min-width: 768px) {
+        
+    }

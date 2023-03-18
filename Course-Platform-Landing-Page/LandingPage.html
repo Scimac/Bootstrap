@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Disperse</title>
+  <link rel="icon" type="image/x-icon" href="/resources/knowledge-icon.svg">
+  <link rel="stylesheet" href="/style.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons CDN Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- <div class="d-flex justify-content-lg-start justify-content-sm-between"> -->
+        <a class="navbar-brand" href="#">
+          <img src="/resources/book-and-pencil.png" alt="course discourse" width="60" height="45" />
+          <span> <b>Course</b></span><span class="text-muted"> <b>Discourse</b></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Courses">Courses</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#Features">Tutor Support</a></li>
+                <li><a class="dropdown-item" href="#Footer">Contact us</a></li>
+                <li><a class="dropdown-item" href="#FAQs">FAQs</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- </div> -->
+        <form class="d-flex justify-content-between" role="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search CD's courses" aria-label="Search CD's courses"
+              aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+              <img src="/resources/search-icon.svg" alt="search" width="12" />
+            </button>
+            <button class="btn btn-primary ms-3" type="button" id="button-addon2">Sign up</button>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="row mx-auto px-3 mt-5 mb-md-5" id="Home">
+      <div class="col-md-7 text-center text-md-start align-self-center">
+        <p class="text-muted mb-sm-4 mb-md-0" style="font-size: 1.25rem;">Are you ready to learn?</p>
+        <!-- Give toggling effect to pace and comfort using animations -->
+        <h2 class="display-4 mb-4">Learn at your own <mark style="background-color: #9affd294;;">Pace</mark> <span
+            style="display: none;">and comfort</span></h2>
+        <p class="lead">Course-Discourse offers comprehensive learning opportunities with flexible schedules. Learn at
+          your own pace
+          with video lectures, quizzes, and exercises.</p>
+
+        <div class="d-grid gap-3 col-10 mx-auto mt-4 align-self-center d-md-flex mx-md-0">
+          <button class="btn btn-primary rounded-3">Get Started</button>
+          <button class="btn btn-outline-secondary rounded-3">Browse Courses</button>
+        </div>
+      </div>
+      <div class="img-fluid col-md-5 mb-5 mt-md-2 mt-5 text-center">
+        <img src="/resources/undraw_online.svg" alt="Online Learning" width="400" />
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-3 mx-3 mb-5 text-center justify-content-center" id="Features">
+      <div class="featureTiles col-5">
+        <div class="card mb-3 h-100">
+          <div class="row g-0">
+            <div class="col-4">
+              <img src="/resources/Courses.svg" class="card-img-top" alt="Courses">
+            </div>
+            <div class="col-8 align-self-center">
+              <div class="card-body">
+                <h5 class="card-title">10,000+ Courses</h5>
+                <p class="card-text">Learn anything from the wide variety of courses.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="featureTiles col-5">
+        <div class="card mb-3 h-100">
+          <div class="row g-0">
+            <div class="col-4">
+              <img src="/resources/Experts.svg" class="card-img-top" alt="Experts">
+            </div>
+            <div class="col-8 align-self-center">
+              <div class="card-body">
+                <h5 class="card-title">600+ Experts</h5>
+                <p class="card-text">Tap into the infinite wisdom pool of experienced experts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="featureTiles col-5">
+        <div class="card mb-3 h-100">
+          <div class="row g-0">
+            <div class="col-4">
+              <img src="/resources/Doubt-Clearance.svg" class="card-img-top" alt="Doubt Clearance">
+            </div>
+            <div class="col-8 align-self-center">
+              <div class="card-body">
+                <h5 class="card-title">Doubt Clearance</h5>
+                <p class="card-text">24hr support throughout the learning journey for a obstacle-free experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="featureTiles col-5">
+        <div class="card mb-3 h-100">
+          <div class="row g-0">
+            <div class="col-4">
+              <img src="/resources/Forums.svg" class="card-img-top" alt="Foruns">
+            </div>
+            <div class="col-8 align-self-center">
+              <div class="card-body">
+                <h5 class="card-title">Discussion Forums</h5>
+                <p class="card-text">Collaborate with other fellow learners and collectively move forward in sharpening
+                  skillsets.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4 justify-content-center" id="Courses">
+      <h2 class="display-4 text-center mb-4">Courses</h2>
+      <div id="courseCarouselAutoplaying" class="carousel slide col-8" style="height: 33rem;" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="/resources/WebDevcourse.jpg" class="d-block w-100" alt="Web Development">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Web Development</h5>
+              <p>Learn to build engaging UI and interactive websites.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="/resources/Hardwarecourse.jpg" class="d-block w-100" alt="Embedded Systems">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Embedded Systems</h5>
+              <p>Learn to build autonomous robots and use microcontrollers.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="/resources/Business-course.jpg" class="d-block w-100" alt="Business">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Business Studies</h5>
+              <p>Nurture the hidden entrepenuere inside yourself.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="/resources/Spiritualitycourse.jpg" class="d-block w-100" alt="Spirituality">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Yoga and Spirituality</h5>
+              <p>Tap into the immense inner-potential through yoga, meditation and Spirituality.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#courseCarouselAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#courseCarouselAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-2" id="Pricings">
+      <h2 class="display-4 text-center mb-4">Pricing Plans</h2>
+      <table class="table col-12" style="width: 80vw;">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Subscription Type</th>
+            <th scope="col">course access</th>
+            <th scope="col">Support</th>
+            <th scope="col">Forums</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Reviewers</td>
+            <td><small>Limited</small></td>
+            <td><i class="bi bi-x"></i></td>
+            <td><i class="bi bi-x"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>One Time Course Access</td>
+            <td><small>Limited</small></td>
+            <td><i class="bi bi-check2"></i></td>
+            <td><i class="bi bi-check2"></i></i></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Monthly or Yearly Subs</td>
+            <td><small>Unlimited</small></td>
+            <td><i class="bi bi-check2"></i></td>
+            <td><i class="bi bi-check2"></i></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="row mt-4 justify-content-center mb-5" id="FAQs">
+      <h2 class="display-4 text-center mb-4">FAQs</h2>
+      <div class="accordion col-8" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              What is Course-Discourse?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Course Discourse is a website or rather a platform where the users can upskill themselves using the vast
+              repository of courses available while discoursing their own idea and understanding with the other learner
+              making a collective march towards betterment.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Why there is a pricing for getting the course certificate?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Human Psychology is very vivid in terms of motivation and dedication. Pricing is our way of inducing a
+              thought of gain and return where the payment makes the course important for the user and the certificates
+              are the rewards for their efforts. It slso helps in keeping the experts interested, engaged and
+              competitive for creating better content for farther reach ensuring increased income for them.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What if I only review the course and not get the certificate?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Our motive is to impart knowledege to as many users as we can, so we are entirely satisfied with you only
+              reviewing the course as long as it contibutes in you well of wisdom. Although, some premium content is
+              restricted as the platform as well as the user needs to acknowledge the efforts of our experts in creating
+              as well as supporitng the courses and learners.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row bg-dark mt-5" id="Footer">
+      <div class="row pt-md-5 pt-3 text-light justify-content-center">
+        <div class="col-md-5 col-12 me-3 text-center">
+          <img src="/resources/book-and-pencil.png" class="img-fluid" alt="Course Discourse" width="90">
+          <p class="lead">Millions of learners from all different ages and from around the world have improved their
+            lives with us.
+          </p>
+        </div>
+        <div class="col-md-5 col-12">
+          <div class="row">
+            <div class="col-4 d-none d-md-block">
+              <h5>Courses</h5>
+              <ul style="list-style: none;">
+                <li><a> Design</a></li>
+                <li><a>Web Development</a></li>
+                <li><a>Engineering</a></li>
+                <li><a>Business</a></li>
+                <li><a>Marketing</a></li>
+              </ul>
+            </div>
+            <div class="col-4 d-none d-md-block">
+              <h5>Teams</h5>
+              <ul style="list-style: none;">
+                <li><a> Design</a></li>
+                <li><a>Web Development</a></li>
+                <li><a>Engineering</a></li>
+                <li><a>Business</a></li>
+                <li><a>Marketing</a></li>
+              </ul>
+              </ul>
+            </div>
+            <div class="col-4 d-none d-md-block">
+              <h5>Useful Links</h5>
+              <ul style="list-style: none;">
+                <li><a>About us</a></li>
+                <li><a>Company</a></li>
+                <li><a>Motivation</a></li>
+                <li><a>Collaboration</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 pt-md-5 pb-md-3 text-center">
+          <div>
+            <span>Copyright &copy; 2023</span>
+            <span class="ms-md-3">www.coursediscourse.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
